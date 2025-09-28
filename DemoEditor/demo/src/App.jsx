@@ -8,18 +8,13 @@ import Sidebar from "./components/Sidebar";
 function App() {
   const [teacherMode, setTeacherMode] = useState(false);
 
-
   return (
     <>
-      <TeacherMode
-        teacherMode={teacherMode}
-        setTeacherMode={setTeacherMode}
-      />
+      <TeacherMode teacherMode={teacherMode} setTeacherMode={setTeacherMode} />
 
-      {!teacherMode && ( <StudentMode />)}
+      {!teacherMode && <StudentMode />}
 
       <hr />
-
 
       {/* the jsx below is for the notes app please do not touch!!!!!! */}
 
@@ -27,7 +22,6 @@ function App() {
         <Sidebar />
         <MainNotes />
       </div> */}
-
     </>
   );
 }
