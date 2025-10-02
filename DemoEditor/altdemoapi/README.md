@@ -57,6 +57,9 @@ Grant privileges for project database
 <br>
 `$ GRANT ALL PRIVILEGES ON learning_app.* TO 'app_connect'@'localhost';`
 <br>
+Apply Privileges
+<br>
+`FLUSH PRIVILEGES;`
 ## Running the Demo API
 To run the demo, execute the following:
 `python run.py`
