@@ -33,6 +33,15 @@ Our plan for the first release of the app
 
 _More specific info can be found in the README files in demo and altdemoapi_
 
-### conecpts
-
-| Concepts | Description |
+## To-Do 
+| Task | Description | Completed | Contributor |
+| ---- | ----------- | --------- | ----------- |
+| Login Page | Create Login page and do OAuth work | ❌ | Paras Pandey |
+| Teacher class session page | Functionality for prompting questions and fetching student answers. Add box for expected student code output | ❌ ||
+| UI clean-up | Make the UI prettier, add nice styles | ❌ ||
+| Database wrapper | Create dev automations and wrapper for database functions | ❌ | Efren Haskell  |
+| Analytics Generation (Non-AI) | Create analytics based on student completion of problems, answer checking, etc... | ❌ ||
+| AI skill prompt engineering | Limit potential skill output | ❌ ||
+| Skill input page | Have page for teacher to input list of skills for that day's class | ❌ ||
+| Analytics Generation (AI) | Create analytics based on AI skill output for student answers | ❌ ||
+| SQL queries | Queries for fetching student data | ❌ ||
