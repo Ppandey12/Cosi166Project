@@ -10,12 +10,9 @@ function App() {
 
   return (
     <>
-      <TeacherMode
-        teacherMode={teacherMode}
-        setTeacherMode={setTeacherMode}
-      />
+      <TeacherMode teacherMode={teacherMode} setTeacherMode={setTeacherMode} />
 
-      {!teacherMode && ( <StudentMode />)}
+      {!teacherMode && <StudentMode />}
 
       <hr />
 
